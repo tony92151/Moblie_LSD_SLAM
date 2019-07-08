@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/tony92151/Moblie_LSD_SLAM/03_slam/build",
+  "command": "/usr/bin/g++-5     -g   -o CMakeFiles/main.dir/main.cpp.o -c /home/tony92151/Moblie_LSD_SLAM/03_slam/main.cpp",
+  "file": "/home/tony92151/Moblie_LSD_SLAM/03_slam/main.cpp"
+}
+]
