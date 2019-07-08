@@ -62,8 +62,10 @@ sudo make install
 ssh-keygen
 
 wget https://github.com/cdr/code-server/releases/download/1.1156-vsc1.33.1/code-server1.1156-vsc1.33.1-linux-x64.tar.gz
-tar -zxf code-server1.1156-vsc1.33.1-linux-x64.tar.gz
-echo "alias eb='sudo ~/./code-server1.1156-vsc1.33.1-linux-x64/code-server -p 20'" >> source ~/.bashrc
+tar -xvzf code-server1.1156-vsc1.33.1-linux-x64.tar.gz
+echo "alias vscs='sudo ~/./code-server1.1156-vsc1.33.1-linux-x64/code-server -p 20'" >> ~/.bashrc
+
+source ~/.bashrc
 
 
 
