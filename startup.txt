@@ -1,11 +1,25 @@
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install cmake g++ libboost1.58-all-dev libeigen3-dev libflann-dev python libusb-1.0–0-dev libudev-dev freeglut3-dev doxygen graphviz libpng12-dev libgtest-dev libxmu-dev libxi-dev libpcap-dev libqhull-dev libvtk5-qt4-dev python-vtk libvtk-java
+
+sudo apt install cmake
+sudo apt-get install build-essential
+sudo apt-get install libgtest-dev
+sudo apt-get install libhdf5-serial-dev
+
+sudo apt-get install build-essential libgl1-mesa-dev
+sudo apt-get install freeglut3-dev
+sudo apt-get install libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev
+
+sudo apt-get install libeigen3-dev
+sudo apt-get install libboost-all-dev
+sudo apt-get install libusb-dev
+
+sudo apt-get install g++ libboost1.58-all-dev libeigen3-dev libflann-dev python libusb-1.0–0-dev libudev-dev freeglut3-dev doxygen graphviz libpng12-dev libgtest-dev libxmu-dev libxi-dev libpcap-dev libqhull-dev libvtk5-qt4-dev python-vtk libvtk-java
 
 
-sudo apt-get install zip unzip
-unzip flann-1.8.4-src.zip 
-cd flann-1.8.4-src/
+wget https://github.com/mariusmuja/flann/archive/1.8.4.tar.gz
+tar -zxf 1.8.4.tar.gz
+cd flann-1.8.4/
 mkdir build
 cd build/
 cmake ..
@@ -25,11 +39,19 @@ sudo make -j8
 sudo make install
 cd
 
+
+wget https://www.coin-or.org/download/source/metslib/metslib-0.5.3.tgz
+tar xzvf metslib-0.5.3.tgz
+cd metslib-0.5.3
+./configure
+sudo make -j8
+sudo make install
+
 wget  https://github.com/PointCloudLibrary/pcl/archive/pcl-1.9.0.tar.gz
 tar -zxf pcl-1.9.0.tar.gz 
-cd pcl-pcl-1.9.0/build/
-cmake ..
-cd pcl-pcl-1.9.0/build/
+cd pcl-pcl-1.9.0
+mkdir build
+cd build/
 cmake ..
 sudo make -j8
 sudo make install
