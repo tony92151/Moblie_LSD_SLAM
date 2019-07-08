@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="02_slam"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02_slam">
+				<Option output="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/02_slam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ERROR_CODE_HEADER_ONLY"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/pcl"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/02_slam"/>
+					<Add directory="/usr/local/include/pcl-1.8"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 02_slam"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02_slam/fast">
+				<Option output="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/02_slam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ERROR_CODE_HEADER_ONLY"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/pcl"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/02_slam"/>
+					<Add directory="/usr/local/include/pcl-1.8"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 02_slam/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/main.cpp">
+			<Option target="02_slam"/>
+		</Unit>
+		<Unit filename="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/parallels/Documents/Moblie_LSD_SLAM/02_slam/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
