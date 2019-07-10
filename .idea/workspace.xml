@@ -10,11 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af1e5267-3f3a-4d1f-abfe-b9695eda186e" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/02_slam/.idea/02_slam.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/02_slam/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/02_slam/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/02_slam/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_slam/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_slam/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_slam/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_slam/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/startup.txt" afterDir="false" />
+>>>>>>> fb5f8be4f1188a2ceb5327e922c483449dd9a8ae
     </list>
     <ignored path="$PROJECT_DIR$/01_slam/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +35,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_slam/exam/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,11 +45,18 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> fb5f8be4f1188a2ceb5327e922c483449dd9a8ae
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01_slam/exam/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="19">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
+=======
+            <state relative-caret-position="264">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+>>>>>>> fb5f8be4f1188a2ceb5327e922c483449dd9a8ae
             </state>
           </provider>
         </entry>
@@ -51,18 +66,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="752" />
     <option name="y" value="24" />
     <option name="width" value="688" />
     <option name="height" value="876" />
+=======
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+>>>>>>> fb5f8be4f1188a2ceb5327e922c483449dd9a8ae
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,6 +105,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,6 +114,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,15 +128,23 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="DEPLOYMENT_SERVER" />
+    <option name="myConnectionId" value="cb7846a6-a8f2-40df-ba5c-b7a7718581a4" />
+>>>>>>> fb5f8be4f1188a2ceb5327e922c483449dd9a8ae
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -124,20 +154,36 @@
       <option name="presentableId" value="Default" />
       <updated>1562211952838</updated>
       <workItem from="1562211954650" duration="129000" />
+<<<<<<< HEAD
       <workItem from="1562212142970" duration="665000" />
       <workItem from="1562213727447" duration="401000" />
       <workItem from="1562216823845" duration="14000" />
       <workItem from="1562220925590" duration="32000" />
+=======
+      <workItem from="1562212142970" duration="630000" />
+      <workItem from="1562562778578" duration="5661000" />
+      <workItem from="1562576062337" duration="232000" />
+>>>>>>> fb5f8be4f1188a2ceb5327e922c483449dd9a8ae
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="752" y="24" width="688" height="876" extended-state="4" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2694704" />
+=======
+    <option name="totallyTimeSpent" value="6652000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+>>>>>>> fb5f8be4f1188a2ceb5327e922c483449dd9a8ae
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -151,7 +197,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.30012935" />
+=======
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3325301" />
+      <window_info anchor="bottom" id="Docker" order="12" />
+>>>>>>> fb5f8be4f1188a2ceb5327e922c483449dd9a8ae
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -164,8 +215,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/01_slam/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="264">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
