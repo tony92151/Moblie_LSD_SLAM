@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tony92151/Moblie_LSD_SLAM/03_slam/main.cpp
+iostream
+-
+eigen3/Eigen/Core
+/home/tony92151/Moblie_LSD_SLAM/03_slam/eigen3/Eigen/Core
+
