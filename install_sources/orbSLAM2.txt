@@ -2,6 +2,7 @@
 # https://www.cnblogs.com/Jessica-jie/p/6381190.html
 
 # https://github.com/stevenlovegrove/Pangolin
+# https://github.com/stevenlovegrove/Pangolin/commit/45b38c15fae075aec0e3e865780b5235b4055848
 
 sudo apt-get install libglew-dev  
 sudo apt-get install cmake  
@@ -9,7 +10,7 @@ sudo apt-get install libboost-dev libboost-thread-dev libboost-filesystem-dev
 
 # git clone https://github.com/zzx2GH/Pangolin.git  
 
-Git clone https://github.com/stevenlovegrove/Pangolin.git
+git clone https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin  
 mkdir build  
 cd build  
