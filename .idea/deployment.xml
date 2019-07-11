@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="gcp-dev">
+    <serverData>
+      <paths name="gcp-dev">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/github" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="gcp-dev (b8f0d280-e675-49bd-b04b-d4e44ec9f767)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/github" local="$PROJECT_DIR$/01_slam" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/01_slam/cmake-build-release-gcp-dev" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="gcp-test (d9e28087-8fe0-494c-bf91-ecd15562ab0f)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tony92151/github" local="$PROJECT_DIR$/01_slam" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/01_slam/cmake-build-release-gcp-dev" />
+            <excludedPath local="true" path="$PROJECT_DIR$/01_slam/cmake-build-debug-gcp-test" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

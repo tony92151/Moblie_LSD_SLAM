@@ -9,6 +9,7 @@ FIND_PACKAGE(OpenCV REQUIRED)
 
 
 include_directories("/usr/include/pcl/")
+find_package(Eigen3 REQIURED)
 #find_package (PCL  REQUIRED)
 #set(PCL_INCLUDE_DIRS /usr/include/pcl/)
 
