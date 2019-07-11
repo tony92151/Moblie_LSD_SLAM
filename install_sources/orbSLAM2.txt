@@ -1,0 +1,18 @@
+# Pangolin
+# https://www.cnblogs.com/Jessica-jie/p/6381190.html
+
+sudo apt-get install libglew-dev  
+sudo apt-get install cmake  
+sudo apt-get install libboost-dev libboost-thread-dev libboost-filesystem-dev 
+
+git clone https://github.com/zzx2GH/Pangolin.git  
+cd Pangolin  
+mkdir build  
+cd build  
+cmake ..  
+make 
+
+
+git clone https://github.com/raulmur/ORB_SLAM2.git
+cd ORB_SLAM2
+./build.sh
