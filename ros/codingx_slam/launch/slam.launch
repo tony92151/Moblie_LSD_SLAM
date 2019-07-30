@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
-	<include file="$(find ydlidar)/launch/lidar.launch"/>
+	<include file="$(find codingx_slam)/launch/lidar.launch"/>
+	<include file="$(find codingx_slam)/launch/tf.launch"/>
 	<include file="$(find codingx_slam)/launch/rf2o.launch"/>
 	<include file="$(find codingx_slam)/launch/gmapping.launch"/>
 
-	
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find codingx_slam)/rviz/codingx.rviz" />
 </launch>
