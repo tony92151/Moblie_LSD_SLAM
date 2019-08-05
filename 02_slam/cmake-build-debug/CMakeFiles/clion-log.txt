@@ -1,4 +1,0 @@
-/home/parallels/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/parallels/Documents/Moblie_LSD_SLAM/02_slam
--- Configuring done
--- Generating done
--- Build files have been written to: /home/parallels/Documents/Moblie_LSD_SLAM/02_slam/cmake-build-debug

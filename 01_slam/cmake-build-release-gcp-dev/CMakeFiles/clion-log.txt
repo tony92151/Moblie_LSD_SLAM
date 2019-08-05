@@ -1,4 +1,0 @@
-Cannot generate into /Users/tonyguo/Documents/github_project/Moblie_LSD_SLAM/01_slam/cmake-build-release-gcp-dev
-Cannot create directory
-
-Please either delete it manually or select another generation directory
